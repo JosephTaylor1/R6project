@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>R6 Strat Guide</title>
+    <script src="defensePick.js"></script>
+    <link rel="stylesheet" href="siteDropdowns.css">
+  </head>
+  <body>
+
+    <div id="attackDefenseSelect">
+      <select name="attackOrDefense">
+        <option value="0">Select Postion:</option>
+        <option value="Attack">Attack</option>
+        <option value="Defense">Defense</option>
+      </select>
+    </div>
+
+    <div id="mapsSelectContainer" >
+
+      <select name="mapsSelect" id="mapsSelect" onChange="showSiteOptions()">
+        <option value="0">Select Map:</option>
+        <option value="bank">Bank</option>
+        <option value="border">Border</option>
+        <option value="chalet">Chalet</option>
+        <option value="clubhouse">Clubhouse</option>
+        <option value="coastline">Coastline</option>
+        <option value="consulate">Consulate</option>
+        <option value="kafeDostoyevsky">Kafe Dostoyevsky</option>
+        <option value="kanal">Kanal</option>
+        <option value="oregon">Oregon</option>
+        <option value="outback">Outback</option>
+        <option value="skyscraper">Skyscraper</option>
+        <option value="villa">Villa</option>
+      </select>
+
+    </div>
+
+    <div id="siteSelectContainer">
+
+      <select id="bankSites" name="bankSites">
+        <option value="0">Select Site: Bank</option>
+        <option value="Executive Lounge and CEO Office">Executive Lounge and CEO Office</option>
+        <option value="Staff Room and Open Area">Staff Room and Open Area</option>
+        <option value="Tellers Office and Archives">Teller’s Office and Archives</option>
+        <option value="Lockers and CCTV Room">Lockers and CCTV Room</option>
+      </select>
+
+      <select id="borderSites" name="borderSites">
+        <option value="0">Select Site: Border</option>
+        <option value="Custom Inspection and Supply Room">Custom Inspection and Supply Room</option>
+        <option value="Workshop and Ventilation Room">Workshop and Ventilation Room</option>
+        <option value="Tellers and Bathroom">Tellers and Bathroom</option>
+        <option value="Armory Lockers and Archives">Armory Lockers and Archives</option>
+      </select>
+
+      <select id="clubhouseSites" name="clubhouseSites">
+        <option value="0">Select Site: Clubhouse</option>
+        <option value="Gym and Bedroom">Gym and Bedroom</option>
+        <option value="CCTV Room and Cash Room">CCTV Room and Cash Room</option>
+        <option value="Bar and Stock Room">Bar and Stock Room</option>
+        <option value="Church and Arsenal Room">Church and Arsenal Room</option>
+      </select>
+
+      <select id="coastlineSites" name="coastlineSites">
+        <option value="0">Select Site: Coastline</option>
+        <option value="Theater and Penthouse">Theater and Penthouse</option>
+        <option value="Hookah Lounge and Billiards Room">Hookah Lounge and Billiards Room</option>
+        <option value="Bar and Stock Room">Bar and Stock Room</option>
+        <option value="Church and Arsenal Room">Church and Arsenal Room</option>
+      </select>
+
+      <select id="consulateSites" name="consulateSites">
+        <option value="0">Select Site: Consulate</option>
+        <option value="Consul Office and Meeting Room">Consul Office and Meeting Room</option>
+        <option value="Lobby and Press Room">Lobby and Press Room</option>
+        <option value="Garage and Cafeteria">Garage and Cafeteria</option>
+        <option value="Tellers and Archives">Tellers and Archives</option>
+      </select>
+
+      <select id="kafeDostoyevskySites" name="kafeDostoyevskySites">
+        <option value="0">Select Site: Kafe</option>
+        <option value="cocktailLounge">Cocktail Lounge</option>
+        <option value="fireplaceMining">Fireplace Hall and Mining Room</option>
+        <option value="coastGuardHolding">Coast Guard and Holding Room</option>
+        <option value="kitchenCooking">Kitchen Service and Cooking</option>
+      </select>
+
+      <select id="kanalSites" name="kanalSites">
+        <option value="0">Select Site: Kanal</option>
+        <option value="serverControl">Server Room and Control Room</option>
+        <option value="kitchenProjector">Kitchen and Projector Room</option>
+        <option value="readingFireplace">Reading Room and Fireplace Hall</option>
+        <option value="kayak">Kayaks</option>
+      </select>
+
+      <select id="oregonSites" name="oregonSites">
+        <option value="0">Select Site: Oregon</option>
+        <option value="kidsMain">Kid's Dorm and Main Hall</option>
+        <option value="rearWatch">Rear Stage and Watch Tower</option>
+        <option value="kitchenDining">Kitchen and Dining Hall</option>
+        <option value="laundrySupply">Basement Laundry and Supply Room</option>
+      </select>
+
+      <select id="outbackSites" name="outbackSites">
+        <option value="0">Select Site: Outback</option>
+        <option value="surpressor">Surpressor</option>
+        <option value="gamesRoom">Games Room</option>
+        <option value="laundry">Laundry</option>
+      </select>
+
+      <select id="chaletSites" name="chaletSites">
+        <option value="0">Select Site: Chalet</option>
+        <option value="masterOffice">Master Bedroom and Office</option>
+        <option value="barGaming">Bar and Gaming Room</option>
+        <option value="wineSnowmobile">Wine Cellar and Snowmobile Room</option>
+        <option value="kitchenTrophy">Kitchen and Trophy Room</option>
+      </select>
+
+      <select id="skyscraperSites" name="skyscraperSites">
+        <option value="0">Select Site: Skyscraper</option>
+        <option value="teaKaraoke">Team Room and Karaoke</option>
+        <option value="officeExihibition">Work Office and Exihibition</option>
+        <option value="kitchenBBQ">Kitchen and BBQ</option>
+        <option value="bedroomBathroom">Bedroom and Bathroom</option>
+      </select>
+
+    </div>
+
+  </body>
+</html>
