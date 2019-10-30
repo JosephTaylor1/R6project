@@ -1,0 +1,8 @@
+#r6Header {
+    position: fixed;
+    height: 65px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(202, 202, 64);
+    color: black;
+}
