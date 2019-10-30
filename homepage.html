@@ -2,17 +2,26 @@
 <html>
   <head>
     <title>R6 Strat Guide</title>
-    <script src="defensePick.js"></script>
+    <script src="mapSelected.js"></script>
+    <script src="stratDisplay.js"></script>
+    <link rel="stylesheet" href="headerStyles.css">
     <link rel="stylesheet" href="siteDropdowns.css">
   </head>
   <body>
 
-    <div id="attackDefenseSelect">
-      <select name="attackOrDefense">
+    <div class=header id=r6Header>
+      <h1>Welcome to R6 Strat Guide</h1>
+    </div>
+    
+    
+    <div id="attackDefenseContainer">
+
+      <select id="attackDefenseSelect" name="attackOrDefense">
         <option value="0">Select Postion:</option>
-        <option value="Attack">Attack</option>
-        <option value="Defense">Defense</option>
+        <option value="attack">Attack</option>
+        <option value="defense">Defense</option>
       </select>
+
     </div>
 
     <div id="mapsSelectContainer" >
@@ -125,6 +134,10 @@
       </select>
 
     </div>
+
+    <button onclick="stratOutcome()">Submit</button>
+
+    <img src="bank-1.jpg" id="displayStrat">
 
   </body>
 </html>
